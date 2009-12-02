@@ -2,8 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -22,8 +21,9 @@ msgstr ""
 
 #: apps/account/forms.py:38 apps/account/forms.py:71 apps/account/forms.py:243
 #: apps/account/forms.py:362
+#, fuzzy
 msgid "Password"
-msgstr ""
+msgstr "Κωδικός πρόσβασης"
 
 #: apps/account/forms.py:39
 msgid "Remember Me"
@@ -48,13 +48,15 @@ msgid "Successfully logged in as %(username)s."
 msgstr ""
 
 #: apps/account/forms.py:72 apps/account/forms.py:244
+#, fuzzy
 msgid "Password (again)"
-msgstr ""
+msgstr "Κωδικός πρόσβασης (ξανά)"
 
 #: apps/account/forms.py:76 apps/account/forms.py:152
 #: apps/account/forms.py:204 apps/account/forms.py:260
+#, fuzzy
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: apps/account/forms.py:82 apps/account/forms.py:158
 msgid "Email (optional)"
@@ -220,9 +222,7 @@ msgid "profiles"
 msgstr ""
 
 #: apps/blog/forms.py:10
-msgid ""
-"a short version of the title consisting only of letters, numbers, "
-"underscores and hyphens."
+msgid "a short version of the title consisting only of letters, numbers, underscores and hyphens."
 msgstr ""
 
 #: apps/blog/forms.py:11 apps/projects/forms.py:20 apps/tribes/forms.py:12
@@ -340,9 +340,7 @@ msgid ""
 msgstr ""
 
 #: apps/photos/forms.py:16
-msgid ""
-"Image filename contains an invalid character: '#'. Please remove the "
-"character and try again."
+msgid "Image filename contains an invalid character: '#'. Please remove the character and try again."
 msgstr ""
 
 #: apps/photos/models.py:15
@@ -442,9 +440,7 @@ msgstr ""
 
 #: apps/projects/forms.py:19 apps/tribes/forms.py:11
 #: projects/sample_group_project/apps/basic_groups/forms.py:11
-msgid ""
-"a short version of the name consisting only of letters, numbers, underscores "
-"and hyphens."
+msgid "a short version of the name consisting only of letters, numbers, underscores and hyphens."
 msgstr ""
 
 #: apps/projects/forms.py:24
@@ -672,9 +668,7 @@ msgstr ""
 
 #: apps/tasks/templates/notification/tasks_assignment/full.txt:5
 #, python-format
-msgid ""
-"%(user_display)s has assigned task '%(task)s' in '%(group)s' to %"
-"(assignee_display)s."
+msgid "%(user_display)s has assigned task '%(task)s' in '%(group)s' to %(assignee_display)s."
 msgstr ""
 
 #: apps/tasks/templates/notification/tasks_assignment/full.txt:7
@@ -695,8 +689,7 @@ msgstr ""
 
 #: apps/tasks/templates/notification/tasks_change/full.txt:4
 #, python-format
-msgid ""
-"%(user_display)s has marked task '%(task)s' in '%(group)s' as %(new_state)s."
+msgid "%(user_display)s has marked task '%(task)s' in '%(group)s' as %(new_state)s."
 msgstr ""
 
 #: apps/tasks/templates/notification/tasks_change/full.txt:6
@@ -732,35 +725,27 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"%(nudger_display)s has nudged you about task '%(task)s'. Please go to the "
-"task and provide either a status update or comment.\n"
+"%(nudger_display)s has nudged you about task '%(task)s'. Please go to the task and provide either a status update or comment.\n"
 msgstr ""
 
 #: apps/tasks/templates/notification/tasks_status/full.txt:4
 #, python-format
-msgid ""
-"%(user_display)s has updated the status of task '%(task)s' in '%(group)s' to "
-"'%(task_status)s'."
+msgid "%(user_display)s has updated the status of task '%(task)s' in '%(group)s' to '%(task_status)s'."
 msgstr ""
 
 #: apps/tasks/templates/notification/tasks_status/full.txt:6
 #, python-format
-msgid ""
-"%(user_display)s has updated the status of task '%(task)s' to '%(task_status)"
-"s'."
+msgid "%(user_display)s has updated the status of task '%(task)s' to '%(task_status)s'."
 msgstr ""
 
 #: apps/tasks/templates/notification/tasks_tags/full.txt:4
 #, python-format
-msgid ""
-"%(user_display)s has updated the tags of task '%(task)s' in '%(group)s' to '%"
-"(task_tags)s'."
+msgid "%(user_display)s has updated the tags of task '%(task)s' in '%(group)s' to '%(task_tags)s'."
 msgstr ""
 
 #: apps/tasks/templates/notification/tasks_tags/full.txt:6
 #, python-format
-msgid ""
-"%(user_display)s has updated the tags of task '%(task)s' to '%(task_tags)s'."
+msgid "%(user_display)s has updated the tags of task '%(task)s' to '%(task_tags)s'."
 msgstr ""
 
 #: apps/topics/views.py:57
@@ -918,10 +903,8 @@ msgstr ""
 #: templates/default/account/password_reset_key_message.txt:1
 #, python-format
 msgid ""
-"You're receiving this e-mail becuase you or someone else has requested a "
-"password for your user account at Pinax.\n"
-"It can be safely ignored if you did not request a password reset. Click the "
-"link below to reset your password.\n"
+"You're receiving this e-mail becuase you or someone else has requested a password for your user account at Pinax.\n"
+"It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
 "\n"
 "http://%(domain)s%(password_reset_url)s\n"
 "\n"
@@ -956,8 +939,7 @@ msgid ""
 "\n"
 "%(accept_url)s\n"
 "\n"
-"If you have any questions about %(SITE_NAME)s, don't hesitate to contact %"
-"(CONTACT_EMAIL)s\n"
+"If you have any questions about %(SITE_NAME)s, don't hesitate to contact %(CONTACT_EMAIL)s\n"
 msgstr ""
 
 #: templates/default/friends/join_invite_subject.txt:1
@@ -995,8 +977,7 @@ msgstr ""
 
 #: templates/default/messages/notification/messages_replied/full.txt:1
 #, python-format
-msgid ""
-"You have replied to '%(message_parent_msg)s' from %(recipient_display)s."
+msgid "You have replied to '%(message_parent_msg)s' from %(recipient_display)s."
 msgstr ""
 
 #: templates/default/messages/notification/messages_reply_received/full.txt:1
@@ -1019,8 +1000,7 @@ msgstr ""
 #: templates/default/swaps/notification/swaps_acceptance/full.txt:1
 #, python-format
 msgid ""
-"%(creator_display)s has accepted your proposed swap of %(proposing_offer)s "
-"for %(responding_offer)s.\n"
+"%(creator_display)s has accepted your proposed swap of %(proposing_offer)s for %(responding_offer)s.\n"
 "\n"
 "http://%(current_site)s%(swap_url)s"
 msgstr ""
@@ -1028,8 +1008,7 @@ msgstr ""
 #: templates/default/swaps/notification/swaps_cancellation/full.txt:1
 #, python-format
 msgid ""
-"%(creator_display)s has cancelled their proposed swap of %(proposing_offer)s "
-"for %(responding_offer)s.\n"
+"%(creator_display)s has cancelled their proposed swap of %(proposing_offer)s for %(responding_offer)s.\n"
 "\n"
 "http://%(current_site)s%(swap_url)s"
 msgstr ""
@@ -1037,8 +1016,7 @@ msgstr ""
 #: templates/default/swaps/notification/swaps_comment/full.txt:1
 #, python-format
 msgid ""
-"%(commenter_display)s has commented on the swap  %(swap)s in which your "
-"offer is involved:\n"
+"%(commenter_display)s has commented on the swap  %(swap)s in which your offer is involved:\n"
 "\n"
 "%(swap_comment)s\n"
 "\n"
@@ -1049,17 +1027,14 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"One of your offers was involved in a swap http://%(current_site)s%"
-"(losing_swap_url)s\n"
-"that lost a conflict to another swap http://%(current_site)s%"
-"(winning_swap_url)s.\n"
+"One of your offers was involved in a swap http://%(current_site)s%(losing_swap_url)s\n"
+"that lost a conflict to another swap http://%(current_site)s%(winning_swap_url)s.\n"
 msgstr ""
 
 #: templates/default/swaps/notification/swaps_proposal/full.txt:1
 #, python-format
 msgid ""
-"%(creator_display)s has proposed a swap of %(proposing_offer)s for your %"
-"(responding_offer)s.\n"
+"%(creator_display)s has proposed a swap of %(proposing_offer)s for your %(responding_offer)s.\n"
 "\n"
 "http://%(current_site)s%(swap_url)s"
 msgstr ""
@@ -1067,8 +1042,7 @@ msgstr ""
 #: templates/default/swaps/notification/swaps_proposing_offer_changed/full.txt:1
 #, python-format
 msgid ""
-"%(creator_display)s has changed their offer %(proposing_offer)s in a "
-"proposed swap for your %(responding_offer)s.\n"
+"%(creator_display)s has changed their offer %(proposing_offer)s in a proposed swap for your %(responding_offer)s.\n"
 "\n"
 "http://%(current_site)s%(swap_url)s"
 msgstr ""
@@ -1076,8 +1050,7 @@ msgstr ""
 #: templates/default/swaps/notification/swaps_rejection/full.txt:1
 #, python-format
 msgid ""
-"%(creator_display)s has rejected your proposed swap of %(proposing_offer)s "
-"for %(responding_offer)s.\n"
+"%(creator_display)s has rejected your proposed swap of %(proposing_offer)s for %(responding_offer)s.\n"
 "\n"
 "http://%(current_site)s%(swap_url)s"
 msgstr ""
@@ -1085,8 +1058,7 @@ msgstr ""
 #: templates/default/swaps/notification/swaps_responding_offer_changed/full.txt:1
 #, python-format
 msgid ""
-"%(creator_display)s has changed their responding offer %(responding_offer)s "
-"to your proposed swap for %(proposing_offer)s.\n"
+"%(creator_display)s has changed their responding offer %(responding_offer)s to your proposed swap for %(proposing_offer)s.\n"
 "\n"
 "http://%(current_site)s%(swap_url)s"
 msgstr ""
